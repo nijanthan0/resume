@@ -1,0 +1,75 @@
+html{
+    /* line-height: 0; */
+    /* margin-top: -10px; */
+    width: 100%;
+}
+body{
+    width: 100%;
+}
+.navbar{
+    /* text-align: left; */
+    /* padding-left: 10px; */
+    color: white;
+    background-color: #2e3e4d;
+    /* height: 100px; */
+    font-family: courier,arial,helvetica;
+}
+.nav-words > h1{
+    /* left: 50%; */
+    font-size: 31px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.nav-words > p{
+    font-size: 20px;
+}
+.profile-pic{
+    /* position: relative;
+    left: 18%; */
+    display: inline-block;
+}
+.nav-words{
+    height: 100px;
+    /* position: relative;
+    right: 23%; */
+}
+
+.contact{
+    line-height: 4px;
+}
+.contact > h6 {
+    font-weight: 700;
+}
+.my-skills{
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.skill-bar{
+    width: 100%;
+    background-color: #ddd;
+    border-radius:10px;
+}
+
+  
+  .skills {
+    text-align: right;
+    color: white;
+    border-radius: 10px;
+  }
+
+
+  
+  .html {width: 90%; background-color: #4CAF50;}
+  .css {width: 80%; background-color: #2196F3;}
+  .js {width: 65%; background-color: #f44336;}
+  .python {width: 80%; background-color: #808080;}
+  .django {width: 60%; background-color: #eca31c;}
+  .angular {width: 40%; background-color: #f86bbd;}
+  .DS {width: 60%; background-color: #593ff1;}
+/* this meadia query is for nav bar */
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }

@@ -74,4 +74,24 @@ body{
     body {
       background-color: lightblue;
     }
+    .head-contact{
+        display: none;
+    }
+    .foot{
+        display: flow-root!important;
+      }
+  }
+  @media only screen and (max-width: 768px) {
+    /* body {
+      background-color: lightblue;
+    } */
+    .head-contact{
+        display: none;
+    }
+    .foot{
+        display: flow-root!important;
+      }
+  }
+  .foot{
+    display: none;
   }

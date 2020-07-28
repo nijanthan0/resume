@@ -58,7 +58,9 @@ body{
     border-radius: 10px;
   }
 
-
+.project {
+    margin-top: 20px;
+}
   
   .html {width: 90%; background-color: #4CAF50;}
   .css {width: 80%; background-color: #2196F3;}
